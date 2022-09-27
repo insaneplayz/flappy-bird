@@ -69,7 +69,7 @@ function draw(){
 
 function spawnObstacles(){
   
-  if(frameCount%150===0){
+  if(frameCount%110===0){
     var x=Math.round(random(1,2));
     if(x==1){
       obstacle=createSprite(width,height-100);
